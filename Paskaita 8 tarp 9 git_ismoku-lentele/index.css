@@ -25,14 +25,17 @@ font-weight: 700;
 
 table {
     border-collapse: collapse;
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     margin-bottom: 50px;
+}
+main {
+    margin: 50px;
 }
 
 th {
     font-weight: 700;
-    padding: 10px 10px 5px 20px;
+    padding: 10px 10px 8px 20px;
     text-align: left;
 }
 
@@ -48,3 +51,28 @@ tr:nth-child(even) {
 td:nth-child(3) {
     text-align: center;
 }
+
+.inverted tr:nth-child(odd) {
+    background: #efefef;
+}
+.inverted tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.inverted {
+margin-bottom: 0;
+}
+
+.inverted th {
+    font-weight: 700;
+    text-align: left;
+    padding: 40px 20px 8px 20px;
+    width: 20%;
+}
+
+ p {
+color: #5a6438;
+font-size: 14px;
+font-weight: 700;
+padding: 60px 0 0 0;
+ }
