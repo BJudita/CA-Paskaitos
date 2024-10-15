@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+body {
+    background: #010a0f;
+}
+
+nav {
+    padding: 18px 0;
+    background: #00141e;
+    border-radius: 8px;
+}
+
+nav a {
+    padding: 14px 5px;
+    margin: 20px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+a.red {
+border-bottom: 4px solid #d10101;
+}
+
+nav a:nth-child(2) {
+    color: #d10101;
+}
+
+main {
+margin: 20px 0;
+background-color:  #00141e;
+padding: 20px;
+border-radius: 8px;
+}
+
+.title {
+    width: 100%;
+    background-color: #01203e;
+    border-radius: 8px;
+}
+
+.flag {
+    display: inline-block;
+    width: 20px; 
+    height: 9px; 
+    padding-top: 0;
+    margin: 0 5px;
+    background: center no-repeat url("Flag_of_England.png");
+    background-size: contain; 
+}
+
+.top-title {
+    font-size: 13px;
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+.england {
+    color: #ffd43b;
+    font-weight: 600;
+
+}
+
+.england::after {
+    content: "Premier Lyga";
+}
+
+.lentele {
+    float: right;
+    margin-right: 10px;
+    color: rgb(217, 217, 217);
+}
+
+.etapas {
+    width: 100%;
+    height: 24px;
+    background-color:#001e28;
+    border-radius: 8px;
+}
+.etapas p {
+    color: #c8cdcd;
+    font-size: 11px;
+    font-weight: 700;
+    height: 28px;
+    letter-spacing: .4px;
+    padding: 6px 0 0 12px;
+}
+table {
+    width: 100%;
+    background: #00141e;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 2px 10px;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+
+}
+.date {
+    width: 10%;
+    text-align: end;
+    border-bottom: 1px solid #0f2d37;
+}
+
+td .teams {
+    display: flex;
+    align-items: center;
+}
+
+td img {
+    height: 16px;
+    width: 16px;
+    margin: 0 8px -2px 0;    
+    display: inline-block;
+    background-size: contain;
+}
+td .team {
+ text-align: center;
+ margin-bottom: 2px;
+}
+
+td.score:nth-of-type(even) {
+    width: 30%;
+    border-bottom: 1px solid #0f2d37;
+}
+ td:nth-last-of-type(2) {
+    width: 40%;
+ }
+
+ td.teams:nth-child(1) {
+    border-bottom: 1px solid #0f2d37;
+ }
+
+.red-card {
+    background: red;
+    border: 2px solid #00141e;
+border-radius: 4px;
+margin-left: 4px;
+}
