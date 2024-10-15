@@ -59,8 +59,6 @@ border-radius: 8px;
     font-size: 13px;
     display: inline-block;
     margin: 10px;
-    
-
 }
 .england {
     color: #ffd43b;
@@ -84,6 +82,7 @@ border-radius: 8px;
     background-color:#001e28;
     border-radius: 8px;
 }
+
 .etapas p {
     color: #c8cdcd;
     font-size: 11px;
@@ -106,6 +105,7 @@ table td {
     font-weight: 500;
 
 }
+
 .date {
     width: 10%;
     text-align: end;

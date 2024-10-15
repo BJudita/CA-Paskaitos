@@ -1,0 +1,92 @@
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }  
+
+    header {
+    padding: 20px;
+    border-bottom: 1px solid rgb(204, 204, 191);;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+   
+}
+.blue {
+    color: rgb(45, 141, 252);
+}
+.grey {
+    color:  rgb(204, 204, 191);
+}
+header, section {
+    margin-left: 235px;
+}
+
+aside {
+    position: absolute; /* or relative */
+    left: 0;
+    top: 0;
+ width: 200px;
+ height: 800px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  background-color: rgb(34, 27, 27);
+  color: white;
+  padding: 0 10px;
+} 
+
+aside p {
+    font-size: 700;
+}
+li.inner {
+    font-size: 13px;
+    line-height: 2;
+}
+li::marker {
+    color: red;
+  }
+
+hr {
+    border: 1px solid rgb(24, 0, 0);
+	box-shadow: 0 20px 20px -20px #e2e2e2;
+
+.movies {
+    text-align: center;
+    width: auto;
+}
+.movie {
+    padding: 15px;
+
+}
+.info {
+    text-align: left;
+}
+.bread_main {
+text-transform: uppercase;
+font-weight: 700;
+padding-right: 10px;
+}
+
+.bread_second {
+text-transform: uppercase;
+color: rgb(204, 204, 191);
+}
+
+.title {
+    margin: 5px 0 0 0;
+}
+
+.movie p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: rgb(160, 154, 146);
+}

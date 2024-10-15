@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+      } 
+    
+    body {
+    padding: 20px 0;
+    background: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    padding: 1.3rem;
+}
+
+.card-img {
+    width: 25%;
+}
+
+.card-title {
+    margin-top: 0.5rem;
+}
+
+.card-description {
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.margin-right-1 {
+margin-right: 0.5rem;
+}
+
+.pill {
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    background-color: rgb(228, 105, 191);
+    width: fit-content;
+    padding: 0.3rem;
+    font-size: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+aside {
+    position: absolute; /* or relative */
+    right: 20px;
+    top: 35px;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding: 0 10px;
+} 
+
+.calendar {
+    width: 320px;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    width: 80px;
+    top: -40px;
+    left: 20px;
+}
+
+.date p {
+    margin: 0;
+    text-align: center;
+}
+
+.day {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 10px 10px 0 0;
+}
+
+.month {
+    font-size: 12px;
+    padding: 5px 20px;
+    color: white;;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(238, 25, 185);
+}
+
+.calendar-text {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 70px 20px 20px 20px;
+}
+
+/*Git*/
+
+.git {
+    background-color: #000000;
+    display: flex;
+    border-collapse: collapse;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.git-block {
+    padding: 40px 50px;
+    border-top: 1px solid #d3d3d355;
+    border-bottom: 1px solid #d3d3d355;
+    border-left: 1px solid #d3d3d355;
+    width: 100%;
+}
+
+.git-cat {
+    color: #A1A1A1; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
+}
+
+.git-cat i {
+    padding-right: 3px;
+    color: white;
+}
+
+.git-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+}
+
+.git-desc {
+    color: #A1A1A1;
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.chat-form1 {
+    border: 1px solid #ffffff25;
+border-radius: 12px;
+padding: 12px;
+margin-top: 50px;
+width: 90%; 
+max-width: 340px;
+overflow: hidden; 
+gap: 12px;
+background-color: #000000;
+}
+
+.dots {
+display: flex;
+margin-left: 6px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #bcbcbc55;
+    border-radius: 50%;
+    margin: 0 5px 8px 0 ;
+
+}
+
+.chat1-content span {
+    color: #A1A1A1; 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.chat1-content p {
+    color: #ffffff; 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: initial;
+    margin: 5px;
+}
+
+.chat-form2 {
+    border: 1px solid #ffffff25;
+border-radius: 12px;
+padding: 12px 12px 0  12px;
+    background: #0e0e10;
+max-width: 350px;
+}
+
+.all-form {
+    display: flex;
+    margin-top: -35px;
+    height: 180px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.red {
+    background: red;
+    margin-top: 3px;
+}
+
+.blue {
+    background: #006ce8;
+    margin-top: 3px;
+}
+
+.green {
+    background: green;
+    margin-top: 3px;
+}
+
+.varcel-center {
+/* margin-left: 25%; */
+    position: relative;
+}
+
+.varcel {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff95;
+    margin: auto; 
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.fa-lock {
+    margin-right: 5px;
+}
+
+.inside-text { 
+    text-align: center;
+    font-weight: 700;
+    color: #00000005;
+   -webkit-text-stroke-color: #ffffff75;
+   -webkit-text-stroke-width: 1px;
+   font-size: 34px;
+   background-image: url("lines.png");
+   filter: invert(0.30);
+   height: 120px;
+   margin-top: 10px;
+   padding: 15px  10px 0 10px;
+}
+
+/* Rights side comments */
+
+.comments-container {
+    margin-top: 50px;
+    display:inline;
+}
+
+.comment p{
+    background: #0a0a0a;
+    line-height: 20px;
+    font-size: 14px;
+    border: 1px solid  #ffffff25;
+    border-radius: 12px;
+    padding: 12px;
+    color: #ffffff;
+    justify-content: flex-start;
+
+    text-align: justify;
+}
+
+code {
+    background: #36336965;
+    color: #a7a7a7;
+    border-radius: 4px;
+    padding: 0 4px;
+    font-size: 13px;
+    position: relative;
+}
+
+.comment.left {
+    width: 210px;
+    margin-top: 40px;
+}
+
+.comment.right {
+    float: right;
+}
+
+.cursor.right {
+position: relative;
+}
+
+.icon-height-right {
+    background: top right no-repeat url("arrow.png");
+    position: absolute; 
+    top: 16px;
+    right: 200px;
+    display: inline-block; 
+    align-items: center;
+}
+
+.cursor.right p {
+    margin: 12px 15px 0 0;
+    border-radius: 6px;
+    padding: 2px 4px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    background-color: #0091ff;
+    will-change: transform;
+}
+
+.comment.left.sec {
+    margin-top: 100px;
+}
+
+.icon-height-left {
+    background: top left no-repeat url("arrow_red.png");
+    position: absolute; 
+    top: 31px;
+    right: 146px;
+    display: inline-block; 
+    align-items: center;
+}
+
+.cursor.left {
+    position: relative;
+}
+
+.cursor.left p {
+    margin: 12px 0 0 15px;
+    border-radius: 6px;
+    padding: 2px 4px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    background-color: #e5484d;
+    will-change: transform;
+}
+
+.fa-circle-arrow-up {
+    margin-left: 16px;
+}

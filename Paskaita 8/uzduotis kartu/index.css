@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+      } 
+
+header nav a:not(:first-child):before {
+    content: "//";
+}
+
+      td {
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+      }
+      tr:nth-child(odd) td:nth-child(even), 
+      tr:nth-child(even) td:nth-child(odd) {
+        background-color: black;
+      }
+    
+      /*p:nth-last-of-type(2), p::first-letter {
+        font-size: 30px;
+        color: salmon;
+      } same thing written as lower*/
+
+      p:nth-last-of-type(2)::first-letter {
+        font-size: 30px;
+        color: salmon;
+      }
+
+      .first-line-styles::first-line {
+        color: blue;
+      }
+h3 {
+    font-size: 20px;
+}
+
+/* Before ir after elementams reikia ka=kokios papildomos informacijos*/
+h3::before  {
+    content: "Hey ";
+    color: #df6223;
+}
+
+h3::after {
+    content: " Ciao";
+    color: rgb(141, 98, 180);
+}
+
+h2:before,
+h2::after  {
+    content: "XXX";
+    color: #9a1010;
+    margin: 5px;
+}
+
+.testas h4 {
+    color: rosybrown;
+}
+
+/*pasirinks pirm1 vaikin5 element1*/
+.testas > h4 {
+font-size: 50px;
+}
+
+/*visus h1 kurie eina po span*/
+
+span + h1 {
+    color: green;
+}
+
+a:hover {
+    font-size: 25px;
+}

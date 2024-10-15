@@ -1,0 +1,32 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+p.didelis {
+    font-size: 25px;
+}
+span {
+    color: rgb(103, 155, 250);
+}
+#width {
+    width: 1000px;
+    line-height: 1.5;
+    font-weight: 500;
+    width: 500px;
+    text-align: justify;
+    
+}
+.italic {
+font-style: italic;
+}
+a {
+    color: rgb(62, 170, 80);
+}
+.test a {
+    color: rgb(41, 80, 165);
+    font-weight: 500;
+}
+b {
+    text-decoration: underline;
+}

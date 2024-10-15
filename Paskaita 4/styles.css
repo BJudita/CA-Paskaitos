@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    height: 100px;
+}
+nav {
+    background-color :#0b680b;
+    padding: 10px 20px;
+}
+nav a {
+    padding: 0 20px;
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;;
+}
+.main {
+    padding: 20px 20px;
+    background-color: #eeeeee;
+}
+h2 {
+    color: white;
+    background-color: #0b680b;
+    padding: 10px;
+    text-align: left;;
+}
+.main p, .contacts p {
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(57, 57, 57);
+}
+.contacts {
+    padding: 10px;
+    background-color: #d7ffd7;
+}
