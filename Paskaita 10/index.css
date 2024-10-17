@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8ebec;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+      }
+      p, h1 {
+        color: white;
+        text-align: center;
+      }
+
+      .optional {
+        font-size: 12px;
+      }
+
+      .wraps-all {
+        padding: 10px; 
+       background: #2f4f4f;
+       width: fit-content;
+       display: block;
+       margin: auto;
+       box-shadow: 0px 2px 13px -4px rgba(165, 165, 165, 1);
+    }
+   
+input:read-only {
+    font-weight: 600;
+}
+   
+   form {
+       padding: 20px 60px 20px 60px;
+       text-align: center;
+        /* border: 1px solid #dbdbdb;
+        background: #ffffff;
+        display: block;
+        margin: auto;
+        width: fit-content; */
+        }
+    
+   input[type=number]::-webkit-inner-spin-button, 
+   input[type=number]::-webkit-outer-spin-button {
+     opacity: 1;
+   }
+   
+   label {
+   font-weight: 500;
+   color: white;
+   }
+   
+   input:hover, textarea:hover  {
+       border: 1px solid #a8a8a8;
+       outline: none;
+   }
+   
+   
+   input {
+       margin: 2px 0 10px 0;
+       padding: 5px;
+       background: #fafafa;
+       outline-color: #a8a8a8;
+       outline-width: 1px;
+
+   }
+
+   input:read-only {
+    background-color: #a9a9a9;
+   }
+
+   input:in-range, input:valid, textarea:valid {
+ border-color: #21ff21;
+   }
+   input:out-of-range, input:invalid, textarea:invalid {
+border-color: tomato;
+       }
+
+   textarea {
+    margin: 2px 0 10px 0;
+    padding: 5px;
+    background: #fafafa;
+
+}
+
+#age {
+    width: 50px;
+}
+
+.highlight {
+    background-color: #eb5596;
+}
+   
+   button {
+       background: #008001;
+       padding: 5px 8px;
+       letter-spacing: 1px;
+       color: white;
+margin-top: 10px;
+       font-size: 18px;
+   }
+
+   button:hover {
+    background-color: #033811;
+   }
+
+   .checkbox-wrap input:focus + label {
+    color: #38a9ff;
+   }
+   
+
+
+   
+
+

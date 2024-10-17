@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wraps-all">
+    <h1>Register to Fancy Form</h1>
+    <p>All fields are <span class="highlight">required</span> unless marked as "optional"</p>
+    <form>
+      <label for="id">Your unique ID that you can't change</label><br>
+<input id="id" type="text" readonly placeholder="YBX0123"><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" required><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" required><br>
+<label for="age">Age:</label><br>
+<input id="age" type="number" min="18" max="65" required><br>
+<label for="about" >Tell us a little abour yourself <span class="optional">(optional)</span>:</label><br>
+<textarea name="about" id="about" cols="30" required></textarea><br>
+  <div class="checkbox-wrap">
+  <input id="agree" type="checkbox" ><label for="agree"> I agree with the Terms & Conditions</label>
+</div><br>
+<button>Register</button>
+</form>
+</div>
+  </body>
+</html>
