@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("https://www.mountainphotography.com/images/xl/20210905-San-Miguel-Sunset.jpg");
+}
+.form-align {
+margin-top: 50px;
+}
+h1 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 460px;
+    background: #ffffff;
+    padding: 30px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+label {
+font-weight: 500;
+}
+input, textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    width: 400px;
+}
+button {
+    background: #333333;
+    border: none;
+    padding: 2px;
+    color: white;
+    width: 130px;
+}
