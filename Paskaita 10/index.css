@@ -13,37 +13,24 @@ body {
         text-align: center;
       }
 
-      .optional {
-        font-size: 12px;
-      }
-
       .wraps-all {
         padding: 10px; 
        background: #2f4f4f;
        width: fit-content;
        display: block;
        margin: auto;
-       box-shadow: 0px 2px 13px -4px rgba(165, 165, 165, 1);
     }
    
 input:read-only {
     font-weight: 600;
 }
    
-   form {
-       padding: 20px 60px 20px 60px;
-       text-align: center;
-        /* border: 1px solid #dbdbdb;
-        background: #ffffff;
-        display: block;
-        margin: auto;
-        width: fit-content; */
-        }
-    
-   input[type=number]::-webkit-inner-spin-button, 
-   input[type=number]::-webkit-outer-spin-button {
-     opacity: 1;
+form {
+padding: 20px 60px 20px 60px;
+text-align: center;
    }
+    
+
    
    label {
    font-weight: 500;
@@ -69,10 +56,15 @@ input:read-only {
     background-color: #a9a9a9;
    }
 
-   input:in-range, input:valid, textarea:valid {
+   input:in-range, 
+   input:valid, 
+   textarea:valid {
  border-color: #21ff21;
    }
-   input:out-of-range, input:invalid, textarea:invalid {
+
+   input:out-of-range, 
+   input:invalid, 
+   textarea:invalid {
 border-color: tomato;
        }
 
@@ -80,7 +72,6 @@ border-color: tomato;
     margin: 2px 0 10px 0;
     padding: 5px;
     background: #fafafa;
-
 }
 
 #age {
@@ -96,7 +87,7 @@ border-color: tomato;
        padding: 5px 8px;
        letter-spacing: 1px;
        color: white;
-margin-top: 10px;
+      margin-top: 10px;
        font-size: 18px;
    }
 
@@ -107,9 +98,3 @@ margin-top: 10px;
    .checkbox-wrap input:focus + label {
     color: #38a9ff;
    }
-   
-
-
-   
-
-
