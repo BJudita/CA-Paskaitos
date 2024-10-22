@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container div {
+border: 1px solid purple;
+}
+
+.smaller-box {
+    width: 100px;
+    height: 100px;
+}
+
+.bigger-box {
+    width: 200px;
+    height: 100px;
+}
+
+.vertical {
+    flex-direction: column-reverse;
+    height: 200px;
+    width: 100px;
+}
+
+.quadriple {
+     width: 200px;
+    height: 200px; 
+}
+
+.up {
+    width: 100px;
+    height: 100px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.two {
+width: 120px;
+height: 70px;
+}
+
+.one {
+    width: 60px;
+    height: 70px;
+}
+
+.four {
+    /* height: 150px;  */
+    display: flex;
+    flex-shrink: 20;
+}

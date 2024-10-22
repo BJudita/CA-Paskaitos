@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("https://st4.depositphotos.com/32273002/41923/i/450/depositphotos_419234988-stock-photo-white-light-texture-background-copy.jpg");
+    width: 1000px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+background-color: #b1cd00;
+padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    gap: 3rem;
+}
+
+nav a {
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.container  p {
+    text-align: justify;
+}
+
+.left-column {
+    width: 40%;
+    margin: 10px;
+}
+
+.right-column {
+    width: 60%;
+    margin: 10px;
+}
+
+.what-we-do {
+    float: inline-start;
+    width: 290px;
+    margin: 4px 10px 5px 0;
+}
+
+button {
+    background-color: #b1cd00;
+    border: none;
+    color: white;
+    padding: 15px;
+    float: right;
+}
+
+footer {
+    color: #2c622c;
+    text-align: center;
+}
