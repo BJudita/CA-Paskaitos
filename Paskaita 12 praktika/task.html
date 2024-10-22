@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+          <div class="left-group">
+            <p class="logo">Best <span>ToDo</span> App</p>
+          </div>
+          <div class="right-group">
+            <i class="fa-brands fa-facebook fa-sm" style="color: #645cff;"></i>
+            <i class="fa-brands fa-twitter fa-sm" style="color: #645cff;"></i>
+            <i class="fa-brands fa-linkedin fa-sm" style="color: #645cff;"></i>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="tasks">
+            <h3>Edit Tasks</h3>
+            <form>
+              <div class="form-align">
+              <label for="id-i">Task ID</label>
+              <input type="text" name="task id" id="id-i" placeholder="123456789" >
+           <br></div>
+           <div class="form-align"><label for="list-input">Name</label>
+              <input id="list-input" type="text" placeholder="Take out trashes">
+            </div><div class="form-align">
+                 <label for="checked">Completed</label>
+          <input class="start" type="checkbox" id="checked"></div>
+            </form>
+            <button class="edit">Edit</button>
+            <p class="error-message">There Was An Error</p>
+          </div>
+        </div>
+        <p class="back"><a href="index.html">Back To Task</a></p>
+    </div>
+   
+</body>
+</html>
