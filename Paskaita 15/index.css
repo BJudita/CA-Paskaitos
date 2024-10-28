@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+    }
+
+    body {
+        background-color: #eeeeee;
+        margin: auto;
+    }
+
+
+    header {
+        /* width: 100%; */
+        background-color: #ffffff;
+        padding-bottom: 15px;
+        box-shadow: 2px 2px 2px 0px #d2d2d2;
+        text-align: center;
+        }
+
+    nav {
+        display: grid;    
+        grid-template-columns: 1fr; 
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;   
+        padding: 0;
+        margin: 0;
+        gap: 0;
+  }
+
+ nav a {
+  color: #9b4bad;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+
+}
+.container {
+    margin: 20px 10px;
+    background-color: #ffffff;
+    padding: 20px 20px 50px 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px  5px 0px  #b3b3b3; 
+    }
+
+
+  h2 {
+    font-weight: 400;
+    font-size: 34px;
+    margin: 5px 0 15px 0;
+  }
+  table {
+    width: 100%;
+  }
+  th, td {
+    line-height: 20px;
+    padding: 20px 0;
+    text-align: left;
+  }
+
+    tr {
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+  }
+  .copyright {
+    margin-top: 1.5rem;
+    text-align: center;
+    color:#4d4d4d;
+    font-size: 18px;
+  }
+
+  @media screen and  (min-width: 768px) {
+   header {
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+   }
+
+    .flex-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 10px;
+    }
+    .container-width {
+     max-width: 1200px;
+  margin: auto;
+    }
+
+   img {
+    margin-bottom: -15px;
+    width: 80px;
+   }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+        background-color: white;
+        padding: 0;
+        border-radius: 6px;
+        margin:0;
+    }
+  nav a {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px 20px 50px 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px  5px 0px  #b3b3b3; 
+  }
+    }
