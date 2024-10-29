@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+    }
+
+.rotation {
+ position: absolute;
+ height: 80%;
+ width: 80%
+}
+
+.earth {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(2,69,103);
+  background: radial-gradient(circle, rgba(2,69,103,1) 11%, rgba(185,217,233,1) 26%, rgba(184,154,1,1) 36%, rgba(48,103,1,1) 56%, rgba(45,217,253,1) 87%);
+position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: earth 15s linear infinite;
+  box-shadow: -1px 19px 17px -5px rgba(177, 217, 255, 1);
+}
+
+.moon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url("https://t3.ftcdn.net/jpg/00/81/29/74/360_F_81297447_kfFfYem0dWGkQRL8hNhA0nIOYvrBQft0.jpg");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg); 
+  animation: moon 8s linear infinite;
+  box-shadow: 0px -70px 55px 25px rgb(254, 254, 199);
+}
+
+@keyframes moon {
+
+  0% { 
+    transform: translate(-50%, -50%) rotate(0deg) translateY(200px); 
+  } 
+  100% { 
+    transform: translate(-50%, -50%) rotate(360deg) translateY(200px); 
+  } 
+
+}  
+
+@keyframes earth {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg); 
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+
+}  

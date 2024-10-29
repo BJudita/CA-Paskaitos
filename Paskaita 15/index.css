@@ -113,4 +113,7 @@
     border-radius: 6px;
     box-shadow: 1px 1px  5px 0px  #b3b3b3; 
   }
+  .copyright {
+    font-size: 14px;
+  }
     }
