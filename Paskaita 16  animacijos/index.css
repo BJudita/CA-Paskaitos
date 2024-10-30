@@ -3,6 +3,52 @@
     font-family: "Inter", sans-serif;
     border-collapse: collapse;
     }
+.container {
+  background: #f4f3f1;
+  margin: auto;
+  padding: 0 0 70px 0;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.flower-container {
+  background: center no-repeat url("flower.jpg");
+  background-size: fit;
+  height: 299px;
+  margin-top: 0;
+  opacity: 0.6;
+  transition: opacity 2s ease;
+
+}
+.flower-container:hover {
+  background: center no-repeat url("started-blooming.jpg");
+  opacity: 0.8;
+}
+.flower-container:active {
+  background: center no-repeat url("bloomed.jpg");
+  opacity: 1;
+}
+
+.flower-button {
+display: flex;
+justify-content: center;
+}
+
+button {
+  position: absolute;
+padding: 15px;
+background-color: #77a54c;
+color: #fcdaf5;
+font-size: 1.1rem;
+border: none;
+border-radius: 12px;
+transition: transform 250ms;
+}
+
+button:hover {
+  transform: scale(0.8);
+}
+
 
 .rotation {
  position: absolute;
