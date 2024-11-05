@@ -23,31 +23,33 @@
           </div>
         </div>
       </header>
-      <div class="container">
+      <section class="container">
         <div class="tasks">
             <h3>Your Tasks</h3>
-            <input id="list-input" type="text" placeholder="e.g. wash dishes">
+            <form>
+            <input id="list-input" type="text" placeholder="e.g. wash dishes"  aria-label="enter your task as an example add wash dishes">
             <button>Add</button>
+          </form>
             <p class="error-message">There Was An Error</p>
         </div>
-        </div>
-        <div class="container">
+        </section>
+        <section class="container">
         <div class="tasks">
           <div class="list-item">
-            <p >Take out Trashes</p>
+            <p tabindex="0">Take out Trashes</p>
             <div class="list-icons">
             <i class="fa-solid fa-pen-to-square fa-2xs" style="color: #1c5b16;"></i>
             <i class="fa-solid fa-trash fa-2xs" style="color: #832029;"></i>
           </div>
           </div>
         </div>
-      </div>
-      <div class="container list">
+      </section>
+      <section class="container list">
         <div class="tasks check-align">
           <div class="list-item">
         <div class="check">
             <i class="fa-regular fa-circle-check fa-2xs" style="color: #387a33;"></i>
-            <p class="item">Walk The Dog</p>
+            <p tabindex="0" class="item">Walk The Dog</p>
           </div>
             <div class="list-icons">
             <i class="fa-solid fa-pen-to-square fa-2xs" style="color: #1c5b16;"></i>
@@ -55,7 +57,7 @@
           </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
 </body>
 </html>

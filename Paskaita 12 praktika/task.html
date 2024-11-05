@@ -23,16 +23,17 @@
           </div>
         </div>
       </header>
-      <div class="container">
+      <section class="container">
         <div class="tasks">
-            <h3>Edit Tasks</h3>
+            <h3 tabindex="0">Edit Tasks</h3>
             <form>
               <div class="form-align">
               <label for="id-i">Task ID</label>
-              <input type="text" name="task id" id="id-i" placeholder="123456789" >
+              <input type="text" name="task id" id="id-i" placeholder="123456789" aria-label="your task id number is">
            <br></div>
-           <div class="form-align"><label for="list-input">Name</label>
-              <input id="list-input" type="text" placeholder="Take out trashes">
+           <div class="form-align">
+            <label for="list-input">Name</label>
+              <input id="list-input" type="text" placeholder="Take out trashes" aria-label="name of the task">
             </div><div class="form-align">
                  <label for="checked">Completed</label>
           <input class="start" type="checkbox" id="checked"></div>
@@ -40,8 +41,8 @@
             <button class="edit">Edit</button>
             <p class="error-message">There Was An Error</p>
           </div>
-        </div>
-        <p class="back"><a href="index.html">Back To Task</a></p>
+        </section>
+        <p class="back"><a href="index.html" aria-label="Press a link to go back to task">Back To Task</a></p>
     </div>
    
 </body>
