@@ -1,16 +1,29 @@
-// darbas su kintamaisiais
 
-const name = "Jonas";
-const admin = name;
+console.log("laivas" === "laivas");
 
-alert(admin);
 
-// teisingas užvadinimas
+const number = 10;
+const text = "10";
 
-const ourPlanetName = "Earth";
-const currentUserName = "Judita";
+const sudetis = number === text;
+const tiesa = number || text;
+const netiesa = number > 9 && text < 9;
 
-// Upper const? 
-const BIRTHDAY = '18.04.1982'; // padaryti birthday didziosiomis? Taip
+console.log(sudetis, tiesa, netiesa);
 
-const AGE = someCode(BIRTHDAY); // padaryti age didziosiomis? Ne nes po met7 keisis
+
+const currentBalance = 50;
+let transaction = 50;
+
+console.log(currentBalance === transaction);
+console.log(currentBalance > 20 && transaction < 90);
+
+transaction = 51;
+
+console.log(currentBalance === transaction);
+console.log(currentBalance > 20 && transaction < 90);
+
+console.log(transaction % 5);
+
+
+
