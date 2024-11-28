@@ -100,3 +100,26 @@ for (let i = 2; i < 10; i++) {
   fib[i] = fib[i - 1] + fib[i - 2];
 }
 console.log(fib);
+
+
+
+console.log("---------");
+
+let rainDrops = [5, 6, 4, 3, 7, 55, 8, 21, 35, 701];
+for (i = 0; i < rainDrops.length; i++) {
+  let sound = "";
+  if (rainDrops[i] % 3 === 0) {
+sound += "Pling"; 
+   } 
+  if (rainDrops[i] % 5 === 0) {
+    sound += "Plang";
+  } 
+  if (rainDrops[i] % 7 === 0) {
+    sound += "Plong";
+  } 
+  if (sound !== "") {
+    console.log(sound);
+  }  else {
+    console.log(rainDrops[i]);
+  }
+}
