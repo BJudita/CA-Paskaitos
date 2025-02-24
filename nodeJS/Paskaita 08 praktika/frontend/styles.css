@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+header {
+padding: 10px 0 20px 0;
+background-color: #ddd4f3;
+border-bottom: 1px solid #ffffff;
+}
+.blog-name {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 600;;
+  text-align: center;
+  color: #4d5466;
+}
+
+main {
+  display: flex;
+  flex-direction: row; 
+}
+
+aside {
+  width: 30%;
+  background-color: #ddd4f3;
+  padding: 1rem;
+
+}
+
+section {
+  width: 70%;
+  padding: 1rem;
+}
+
+h2, h1 {
+  margin: 0 0 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 0.2rem;
+  color: #4d5466;
+}
+
+form input, form textarea, form button {
+  margin-top: 0.25rem;
+  padding: 5px;
+  outline: none;
+  border: none;
+
+}
+button {
+  background-color: #4d5466;
+  color: #ffffff;
+  border: none;
+}
+h2, h1 {
+  font-weight: 200;
+  color: #653c9b;
+}
+
+footer {
+  background-color: #4d5466;
+  border-top: 1px solid #ffffff;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+

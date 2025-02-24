@@ -1,0 +1,36 @@
+h3, input, li {
+    font-size: 16px;
+}
+p {
+    margin: 0;
+}
+li button {
+    font-size: 12px;
+}
+.create {
+    margin: 10px 0; 
+    background-color: #8e9d63;
+}
+
+input {
+    /* width: 100px; */
+    align-items: left;
+    padding: 0.2rem; 
+    margin: 0.5rem 0 0.5rem 0.5rem; 
+}
+ ul {
+    list-style-type: none;
+    text-align: left;
+ }
+ span {
+    font-size: 12px;
+    
+ }
+ .todo-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .todo-page {
+text-align: right;
+ }

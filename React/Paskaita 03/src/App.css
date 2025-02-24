@@ -1,0 +1,15 @@
+#root {
+  margin: auto; 
+  /* padding: 0 2rem 2rem 2rem; */
+}
+body {
+  background: #f1f7f5;
+}
+
+.title-wrapper {
+  background: repeat-x bottom url("./assets/background.JPEG");
+  background-size: cover;
+  width: 100vw;
+
+}
+

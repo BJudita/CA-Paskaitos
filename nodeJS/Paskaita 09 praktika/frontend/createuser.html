@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylescu.css" />
+  <script src="submit_user.js" defer></script>
+  <title>Submit Name</title>
+</head>
+<body>
+  <header>
+    <div class="nav">
+    <nav>
+  <a href="#">Membership</a>
+  <a href="#">Users</a>
+    </nav></div>
+  </header>
+  <main>
+  <h1 class="page-name">Create User</h1>
+      <section>
+  <form id="user-form">
+    <div class="form-group lineup" >
+    <div class><label for="first-name">First Name <span>*</span></label><br>
+    <input type="text" id="first-name" placeholder="First Name" required /></div>
+   <div> <label for="surname">Last Name <span>*</span></label><br>
+    <input type="text" id="surname" placeholder="Last Name" required /></div><br>
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address <span>*</span></label><br>
+    <input type="email" id="email" placeholder="Email Adress" required /><br>
+  </div>
+  <div class="form-group">
+    <label for="membership">Change Membership</label><br>
+    <select id="membership" name="membership" required>
+    </select>
+  </div>
+  <div class="buttons">
+    <button id="btn_cancel" type="button">Cancel</button>
+    <button id="btn_user" type="submit">New User</button>
+    </div>
+    </form>
+</section>
+</main>
+<footer>
+  <p>Copyright © 2021 Membership Manager</p>
+ </footer>
+</body>
+</html>

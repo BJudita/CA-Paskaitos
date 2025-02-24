@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="submit.js" defer></script>
+  <title>Submit Name</title>
+</head>
+<body>
+  <header>
+    <p class="blog-name">Just a Blog</p>
+  </header>
+  <main>
+  <aside>
+  <h2>Create an article</h2>
+  <form id="article-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" required /><br>
+    <label for="content">Content:</label>
+    <textarea type="text" id="content" required minlength="20" maxlength="200" rows="20" cols="40"></textarea><br>
+    <label for="author">Author:</label>
+    <input type="text" id="author" required /><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+    <button type="submit">Submit</button>
+  </form>
+</aside> 
+<section>
+  <h1>All articles</h1>
+  <ul id="article-list"></ul>
+</section>
+</main>
+<footer>
+  <a href="list.html">View All Names</a></footer>
+</body>
+</html>

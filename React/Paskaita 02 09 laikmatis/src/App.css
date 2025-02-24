@@ -1,0 +1,19 @@
+#root {
+  margin: auto; 
+  padding: 0 2rem 2rem 2rem;
+}
+body {
+  background: #f1f7f5;
+}
+
+.title-wrapper {
+  width: 1280px;
+  background: no-repeat bottom/100% url("./assets/background.JPEG");
+
+}
+
+.refContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #a98e70;
+}

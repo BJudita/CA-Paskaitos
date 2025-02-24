@@ -1,0 +1,13 @@
+.timerContainer {
+    margin: auto;
+    width: 344px;
+    padding: 1rem 0;
+}
+
+.timerContainer h1 {
+    color: #242424;
+
+    }
+.timerContainer button {
+margin: 1rem;
+}

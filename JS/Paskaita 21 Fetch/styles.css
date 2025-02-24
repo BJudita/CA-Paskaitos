@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    /* border-collapse: collapse; */
+    }
+    body {
+        background-color: #f7f7f7;
+    }
+    table {
+        border-spacing: 30px;
+        text-align: center;
+    }
+
+    td {
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        background-color: #aeffab; /* Green background when closed */
+        cursor: pointer; /* Mouse pointer to indicate clickable area */
+    }
+    
+    i {
+        color: transparent; /* Initially the icon is invisible */
+    }
+    
+    .opened {
+        color: #000000; /* Visible icon when the card is open */
+        background-color: #ffffff; /* White background when the card is open */
+    }

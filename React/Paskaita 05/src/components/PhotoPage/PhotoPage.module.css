@@ -1,0 +1,21 @@
+.mainContainer {
+    background: #bac856;
+   margin: 10px;
+   padding: 0 2rem 2rem 2rem;
+   border-radius: 8px;
+}
+
+ .imgBox {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background-color: #242424;
+        border-radius: 0 0 8px 8px;
+    } 
+
+.title {
+    color: #fdfdfd;
+    font-size: 2em;
+    width: 350px;
+    font-size:25px;
+}

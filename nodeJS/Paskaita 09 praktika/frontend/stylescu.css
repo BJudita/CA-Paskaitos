@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    background-color: #edf2f6;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+  }
+
+
+  header {
+    padding: 15px 0;
+ background-color: #ffffff;
+  }
+
+nav { 
+  display: flex;
+  gap: 5rem;
+ justify-content: center;
+ font-weight: 600;
+}
+
+  .page-name {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: left;
+    color: #4d5466;
+  }
+  
+  main {
+    width: 70%;
+    margin: auto;
+     /*display: flex;
+    flex-direction: row; */
+} 
+
+  section,  #btn_member {
+    border-radius: 4px;
+  }
+    section {
+    box-shadow: 0px 1px 4px 0px #e1e1e1;
+    padding: 1rem;
+    background-color: #ffffff;
+  }
+  
+  h2, h1 {
+    margin: 0 0 1rem;
+    font-weight: 600;
+  }
+  
+  form {
+    width: 100%;
+    margin: auto;
+  }
+   .form-group {
+margin-bottom: 1rem;
+   }
+  
+  .lineup {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+  }
+.lineup input {
+    width: 100%;
+}
+
+.lineup > div {
+    width: 44%;
+}
+  
+  form label {
+    width: 100%;
+    width: 150px; 
+    color: #4d5466;
+    font-weight: 600;
+    margin-left: 3px;
+  }
+
+  form input {
+    width: 44%;
+  }
+
+  form select {
+    width: 30%;
+  }
+
+  form input, form select  {
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 1px 4px 0px #e1e1e1;
+  }
+  input::placeholder {
+    opacity: 0.5;
+  }
+
+  form button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #btn_user {
+    background: #667dea;
+    padding: 5px 20px;
+    color: #ffffff; 
+    border-radius: 2px;
+  }
+  footer {
+ position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px; 
+    font-size: 14px;
+  }
+span {
+    color: rgb(255, 47, 47);
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #70839e;
+}
+
+a:hover {
+  color: #667dea;
+}
+
+  
+  
+  

@@ -1,0 +1,11 @@
+.playerContainer {
+    padding: 1rem;
+}
+
+.playerContainer h1 {
+    color: #242424;
+
+    }
+.playerContainer button {
+margin: 1rem;
+}

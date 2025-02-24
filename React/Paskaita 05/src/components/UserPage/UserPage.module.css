@@ -1,0 +1,139 @@
+.mainContainer {
+  background: #bac856;
+  margin: 10px;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 8px;
+}
+.userContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem
+}
+
+.user {
+  display: flex;
+  justify-content: end;
+}
+
+.userBox {
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 8px 0 0 0;
+  text-align: left;
+  background-color: #242424;
+}
+.company {
+  text-align: left;
+  color: #242424;
+  padding: 20px;
+
+  background-color: #ffffff50;
+  border-radius: 0 0 8px 8px;
+}
+
+.numberSpan {
+  font-size: 14px;
+  background-color: #242424;
+  padding: 10px 0;
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+}
+
+
+.albumBox {
+
+    color: #242424;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #ffffff40;
+  }
+  
+  .albumBox h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .albumBox h3 {
+    text-align: left;
+    margin: 0; 
+  }
+  
+  .albumsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .infoContainer {
+    display: flex;
+    margin-top: 20px;
+    color: #242424;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  
+.postBox h2 {
+  text-align: left;
+  padding: 0 0 10px 10px;
+  margin-top: 10px;
+}
+
+.todos h2 {
+    text-align: center;
+    padding: 0 0 10px 10px;
+    margin-top: 10px;
+}
+
+.post {
+  text-align: left;
+  padding: 0 0 10px 10px;
+  border-bottom: 2px solid #bac856;
+}
+.post p, h3 {
+  color: #242424;
+}
+
+.postBox {
+    border-radius: 8px;
+    border-bottom: none;
+    background: #ffffff40;
+    width: 70%; 
+  }
+/* todos */
+.list {
+    background: #785dc8;
+   margin: 10px 0 10px 10px;
+   padding: 0 1rem;
+   border-radius: 8px;
+  
+  }
+   a, a:hover {
+   color: #ffffff;
+  }
+  .list:hover {
+    background: #9696e0;
+  }
+  
+  .todoSpan {
+    /* background-color: #bac856; */
+    font-size: 14px;
+    padding: 15px 0;
+    display: inline-block;
+    /* width: 35px; */
+    text-align: center;  
+  }
+  .title {
+    color: #bac856;
+  }
+  
+    .completed {
+      background-color: #8bc34a;     
+      text-decoration: line-through;     
+      opacity: 0.7; 
+  }
+
+  .todos ul {
+    padding: 0;
+  }

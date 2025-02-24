@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+        <div class="left">
+        <div class="title">2048</div>
+        <div><p class="join">Join the tiles, get to <span class="bold">2048!<br><link rel="stylesheet" href="#">How to play ></span></p></div>
+        </div>
+        <div class="right">
+            <div class="result-container">
+            <div class="score">
+                <p class="score-name">SCORE</p>
+            <div id="score" class="white"></div>
+            </div>
+            <div class="best-score">
+                <p class="score-name">BEST</p>
+            <div id="best-score" class="white"></div>
+            </div>
+        </div>
+        <div>
+        <button id="new-game">New Game</button>
+    </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div id="win-message" style="display: none;">
+            <p>Congratulations! You Win!</p>
+        </div>
+        <div class="grid-container">
+            <div class="grid-row">
+              <div class="grid-cell"></div>
+              <div class="grid-cell"></div>
+              <div class="grid-cell"></div>
+              <div class="grid-cell"></div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+              </div>
+          </div>
+    
+          <!-- <section>
+            <div><p><span class="bold">HOW TO PLAY:</span>Use your <span class="bold">arrow keys</span> to move tiles. Tiles with the same number <span class="bold">merge image into one</span>when they touch. Ass them up to reach <span class="bold">2048!</span><br>
+            <span class="bold">Start playing ></span></p>
+            <hr>
+            <p>You're playing the <span class="bold">original version 2048.</span> Try out the official apps for <span class="bold">iOS</span> and <span class="bold">Android!</span> All other versions of this game are derivatives and should be used with caution.</p>
+        <hr>    
+        </div>
+          </section> -->
+    </main>
+</body>
+</html>

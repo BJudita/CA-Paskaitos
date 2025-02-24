@@ -78,3 +78,4 @@ console.log(cities.find((cityk) => cityk[0] === "K"));
 console.log(cities.some((lowercase) => lowercase[0] === lowercase[0].toLowerCase()));
 
 console.log(cities.every((lowercase) => lowercase[0] === lowercase[0].toUpperCase()));
+

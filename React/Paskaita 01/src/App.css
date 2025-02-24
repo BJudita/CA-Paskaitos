@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.header {
+  background: #fff;
+}
+.logo {
+  height: 3em;
+  padding: 0.5em;
+  margin-bottom: 0.8rem;;
+  will-change: filter;
+  transition: filter 300ms;
+  text-align: left;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.header-nav {
+  padding: 1rem 0.5rem;
+  background-color: #1a3441;
+  text-align:left;
+}
+
+.header-nav a{
+  padding: 1rem;
+  color: #fff;
+}
+
+.banner {
+background-color: #aec43b;
+height: 300px;
+}
+
+h1 {
+  vertical-align: middle;
+padding-top: 100px;
+margin: 1rem;
+font-weight: 100;
+}
+p, h2, h3, h5, h6, li a {
+  color: #464646;
+  font-weight: 400;
+}
+ h3 {
+  margin: 0;
+  font-size: 30px;
+ }
+ h5 {
+  font-size: 18px;
+  margin: 0;
+
+ }
+.cards-container, .content-container {
+display: flex;
+gap: 1rem;
+padding: 1rem 0;
+}
+
+.card, .content-container {
+  background-color: #fff;
+  text-align: left;
+}
+
+.left {
+  padding: 0 1rem;
+}
+
+h6 {
+  margin: 0 1rem;
+  font-size: 18px;
+}
+
+ul {
+  background-color: #ececec;
+  margin: 0.3rem 1rem;  
+  width: 200px;
+  list-style-type: none;
+  padding: 1rem;
+}
+ li {
+padding: 0 0 1.5rem 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

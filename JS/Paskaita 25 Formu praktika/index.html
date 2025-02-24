@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <div>
+        <h1>KARTUVĖS</h1>
+        <h3>Atspėk žodį</h3>
+        <h2 id="wordToGuess"></h2>
+        <form id="guessForm">
+            <input type="text" id="letterInput" placeholder="įveskite raidę" maxlength="1" required>
+            <button class="hide" type="submit">Spėti</button>
+        </form>
+        <br>
+        <button id="newWordB">Pateikti naują žodį</button>
+        <br>
+        <p>Liko <span id="leftGuesses"></span> spėjimai!</p>
+        <p>Spėtos raidės:<br></br><span id="guessedLetters"></span></p>
+        <p id="result"></p>
+    </div>
+    </main>
+</body>
+</html>

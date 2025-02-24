@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #edf2f6;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    padding: 15px 0;
+    background-color: #ffffff;
+  }
+  
+  nav {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    font-weight: 600;
+  }
+  
+  .page-name {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: left;
+    color: #4d5466;
+  }
+  
+  main {
+    width: 70%;
+    margin: auto;
+    /*display: flex;
+      flex-direction: row; */
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section,
+  #btn_member {
+    border-radius: 4px;
+  }
+  
+  .sorting-users {
+    text-align: center;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-weight: 600;
+  }
+  
+  .title-container p {
+    margin: 2px 0 20px 0;
+    font-size: 14px;
+  }
+  
+  .membership-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    width: 100%;
+  }
+  
+  .card-memb {
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 4px 0px #e1e1e1;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  h6 {
+    font-size: 30px;
+  }
+  .card-memb span {
+    text-align: center;
+  }
+  
+  .delete-btn {
+    display: block;
+    float: right;
+    background-color: #d64a4a;
+    margin: 3rem 0.5rem 0 0.5rem;
+  }
+  button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  #btn_member {
+    background: #667dea;
+    padding: 10px 20px;
+    color: #ffffff;
+  }
+  
+  footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  span {
+    color: rgb(255, 47, 47);
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: #70839e;
+  }
+  
+  a:hover {
+    color: #667dea;
+  }
+  

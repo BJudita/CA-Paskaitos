@@ -1,0 +1,27 @@
+.btn-wrapper {
+ text-align: center;
+ padding: 2rem;
+}
+
+.btn {
+    color: #fff;
+    background-color: #7eaba6;
+    padding: 10px 25px;
+    margin-bottom: 1.5rem;
+}
+.title-wrapper {
+    padding: 2rem 2rem 0.5rem 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
