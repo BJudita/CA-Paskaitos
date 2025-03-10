@@ -1,0 +1,31 @@
+REACT frontend:
+npm create vite@latest . -- --template react
+
+npm install
+
+npm run dev
+
+npm install react-router-dom
+
+
+eslint:
+'react/prop-types': 'off',
+
+Backend:
+
+npm init -y
+
+npm i express dotenv pg      -(dbeaver database - pg)  (mongoDb - mongoose)
+
+3. package.json add: 
+,
+"type": "module"
+
+4. create server.js
+
+5. nodemon server.js (paleidziam serveri)
+
+6. susikuriam env, tada routers, controllers, db
+
+7. kuomet pradedama dirbti ir su frontend, instal: npm i corse in backend
+

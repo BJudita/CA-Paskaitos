@@ -1,0 +1,58 @@
+.innerBody {
+    background-color: #e9e7da;
+}
+
+.addMedButton {
+    background-color: #442827;
+    color: #e9e7da;
+    padding: 10px 20px;
+    margin: 6px 15px 0 0;
+    float: right;
+  }
+  .addMed {
+    background-color: #442827;
+    color: #e9e7da;
+    padding: 10px 20px;
+    margin: 6px 15px 0 112px ;
+  }
+  .innerBody form {
+    padding: 2rem;
+    text-align: left;
+  }
+  .innerBody input{
+   margin: 5px 0 10px 0;
+padding: 5px;
+border-radius: 6px;
+width: 200px;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+    margin: 2rem;
+    padding-bottom: 2rem;
+}
+.title {
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.medName {
+color: #927d14; 
+font-weight: 400;
+text-align: center;
+}  
+
+strong {
+    font-weight: 500;
+}
+
+.medBox {
+     box-sizing: border-box; 
+     border:1px solid #927d14;
+     padding: 15px;
+     text-align: center;
+     background: #f2f1e6;
+ }
