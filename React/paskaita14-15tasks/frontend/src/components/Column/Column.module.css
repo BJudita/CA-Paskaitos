@@ -1,0 +1,15 @@
+.column {
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 170px;
+  }
+  
+  .heading {
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+  }
+
+  .add {
+    margin: 5px 0;
+    background-color: #4a4458;
+  }

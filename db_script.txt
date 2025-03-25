@@ -1,0 +1,175 @@
+
+--insert into prescriptions (medication_id, pet_id, comment) values (3, 6, '1st day full dose, next 2 days half a dose, with food');
+--insert into logs (pet_id, description, status) values (6, 'Hena', 'in progress');
+--insert into medications (name, description) values ('Vitamin K', 'Suplement for bones')
+--insert into pets (name, dob, client_email) values ('Sky', '2022-05-21', 'olga@gmail.com')
+--select * from prescriptions
+
+
+/*CREATE TABLE medications (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description VARCHAR(150) NOT NULL
+);
+
+CREATE TABLE pets (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    client_email VARCHAR(100) UNIQUE NOT NULL,
+    isArchived BOOLEAN DEFAULT FALSE
+);
+
+CREATE TABLE logs (
+    id SERIAL PRIMARY KEY,
+    pet_id INT REFERENCES pets(id) ON DELETE CASCADE,
+    description TEXT NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE prescriptions (
+    id SERIAL PRIMARY KEY,
+    medication_id INT REFERENCES medications(id) ON DELETE CASCADE,
+    pet_id INT REFERENCES pets(id) ON DELETE CASCADE,
+    comment TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);*/
+
+
+
+--CREATE TABLE employees (
+    --id SERIAL PRIMARY KEY,
+    --name VARCHAR(100) NOT NULL,
+    --email VARCHAR(100) UNIQUE NOT NULL
+--);
+--CREATE TABLE projects (
+    --id SERIAL PRIMARY KEY,
+    --project_name VARCHAR(100) UNIQUE NOT NULL
+--);
+--CREATE TABLE employee_project (
+  --  employee_id INT REFERENCES employees(id) ON DELETE CASCADE,
+   -- project_id INT REFERENCES projects(id) ON DELETE CASCADE,
+    --PRIMARY KEY (employee_id, project_id) -- Composite primary key
+--);
+
+
+--SELECT * FROM projects LEFT JOIN employee_project ON projects.id = employee_project.project_id  LEFT JOIN employees ON employee_project.employee_id = employees.id;
+
+
+--insert into projects (project_name) values ('Zylutes')
+
+--* many : many relationship
+
+--* pasiimam i6 lenteli7 tik tuos 5ra6us kurie sutampa, tad studentas be curos nebus paetikiamas -start
+--select * from students join student_courses on students.id = student_courses.student_id  join courses_student on student_courses.course_id = courses_student.id
+--* pasiimam i6 lenteli7 tik tuos 5ra6us kurie sutampa, tad studentas be curos nebus paetikiamas -end
+
+--* Paiima visus studentus (is kaires puses) ir prideda null priw tu62i7 stulpeli7: left join
+--select * from students left join student_courses on students.id = student_courses.student_id  left join courses_student on student_courses.course_id = courses_student.id
+
+--* Paiima visus kursus (is desines puses) ir prideda null priw tu62i7 stulpeli7: right join
+--select * from students right join student_courses on students.id = student_courses.student_id  right join courses_student on student_courses.course_id = courses_student.id
+
+--* Paiima visus studentus ir cursus (ir kaire ir desine) ir prideda null priw tu62i7 stulpeli7: full outer join
+--select * from students full outer join student_courses on students.id = student_courses.student_id  full outer join courses_student on student_courses.course_id = courses_student.id
+
+--* Paiima visus duomenis ir sudeda kiekviena kursa su kiekvienu studentu (atsargiai naudoti): cross join
+--select * from students cross join courses_student
+
+
+--select * from student_courses
+
+--insert into students (name, email) values ('Maxim', 'Linass@gmail.com')
+--insert into courses_student (course_name) values ('Geografy')
+--insert into student_courses (student_id, course_id) values (3, 2)
+
+--CREATE TABLE students (
+ --   id SERIAL PRIMARY KEY,
+ --   name VARCHAR(100) NOT NULL,
+   -- email VARCHAR(100) UNIQUE NOT NULL
+--);
+
+--CREATE TABLE courses_student (
+   -- id SERIAL PRIMARY KEY,
+   -- course_name VARCHAR(100) UNIQUE NOT NULL
+--);
+
+--* saugo relationships
+--CREATE TABLE student_courses (
+   -- student_id INT REFERENCES students(id) ON DELETE CASCADE,
+    --course_id INT REFERENCES courses_student(id) ON DELETE CASCADE,
+    --PRIMARY KEY (student_id, course_id)   --- padarys kad student id negalėtų registruotis tam pačiam kursui antra kart
+--);
+
+
+--* 1 : many relationship, vienas mokytojas gali tureti daug kursu 
+
+--delete from teachers where id=2
+--select * from courses
+
+--select * from teachers join courses on teachers.id = courses.teacher_id --\apjungiame lenteles
+--select teachers join courses on teachers.id = courses.teacher_id
+
+--select * from teachers
+--insert into courses (course_name, teacher_id) values ('Dizainas', 3)
+--insert into teachers (name) values ('Ugnius')
+
+--CREATE TABLE courses (
+    --id SERIAL PRIMARY KEY,
+    --course_name VARCHAR(100),
+   -- teacher_id INT REFERENCES teachers(id) ON DELETE SET NULL
+--);
+
+--CREATE TABLE teachers (
+   -- id SERIAL PRIMARY KEY,
+   -- name VARCHAR(100)
+--);
+
+
+-- *1-as variantas apjungimo 1: 1
+
+--insert into students (name, email) values ('Tomas', 'tomasfu@tt.lt')
+
+--CREATE TABLE student_profiles (
+    --id SERIAL PRIMARY KEY,
+    --student_id INT UNIQUE REFERENCES students(id) ON DELETE CASCADE,
+   -- date_of_birth DATE,
+   -- address TEXT
+--);
+
+--CREATE TABLE students (
+  -- id SERIAL PRIMARY KEY,
+   -- name VARCHAR(100),
+   -- email VARCHAR(100) UNIQUE
+--);
+
+--select * from student_profiles
+--select * from students where id=2
+--delete from students where id=2 --cascade delete
+
+--insert into student_profiles (student_id, date_of_birth, address) values (2, '1988-05-04', 'Vilnius')
+
+--\noriu pasiimti visus students ir kartu student_profiles info dvi lenteles pagal j7 sutapusius id\komentaras
+--select * from students join student_profiles on students.id = student_profiles.student_id
+--select students.name, students.email, student_profiles.date_of_birth from students join student_profiles on students.id = student_profiles.student_id --ima ne visus duomenis *
+--select students.name as student_name, students.email, student_profiles.date_of_birth from students join student_profiles on students.id = student_profiles.student_id --pakeis lentel4s varda tik atvaizdavime ne db
+
+-- *pabaiga 1-o var
+
+--insert into plist (title)
+--values ('suris')
+
+--delete from users where id = 2
+
+--update users 
+--set name = 'Naujas vardas', age = 30 
+--where id = 3
+
+--update cars 
+--set year = 3333, brand = 'kazkas naujo', make='kazkas nauj'
+--where id=1
+--returning id, bran, year, make
+
+-- insert into cars

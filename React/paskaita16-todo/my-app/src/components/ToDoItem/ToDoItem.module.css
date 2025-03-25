@@ -1,0 +1,17 @@
+.deleteBtn {
+    margin-left: 1rem;
+    background-color: #8a4d4d;
+    padding: 0.2em 0.5em;
+}
+
+.checkBox {
+    margin: 0 1rem;
+}
+
+  li {
+    list-style: none;
+    text-align: right;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+  }

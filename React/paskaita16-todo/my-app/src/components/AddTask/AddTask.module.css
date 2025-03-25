@@ -1,0 +1,12 @@
+.addBtn {
+    margin-left: 1rem;
+    background: #5c8a4d;
+}
+form {
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+.input {
+    padding: 5px;
+}
