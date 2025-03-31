@@ -17,7 +17,7 @@ export default function LoginPage() {
         password,
       };
 
-      const { data } = await axios.post("http://localhost:3000/login", body, { withCredentials: true });
+      const { data } = await axios.post("http://localhost:5003/login", body, { withCredentials: true });
       navigate("/dashboard");
     } catch (error) {
       console.log(error);

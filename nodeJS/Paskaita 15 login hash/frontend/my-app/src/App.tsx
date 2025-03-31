@@ -2,26 +2,26 @@ import "./App.css";
 import DashboardPage from "./components/DashboardPage/DashboardPage";
 import LoginPage from "./components/LoginPage/LoginPage";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import AuthContextProvider from "./Context/AuthContextProvider";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
+import AuthContextProvider from "./Context/AuthContextProvider";
 
 function App() {
   return (
     <Router>
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
       <AuthContextProvider>
-        <Routes>
-          <Route path="/login" element={<LoginPage />} />
-          <Route
-            path="/dashboard"
-            element={
-              <ProtectedRoute>
-                <DashboardPage />
-              </ProtectedRoute>
-            }
-          />
-        </Routes>
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <DashboardPage />
+            </ProtectedRoute>
+          }
+        />
       </AuthContextProvider>
-    </Router>
+    </Routes>
+  </Router>
   );
 }
 

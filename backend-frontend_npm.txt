@@ -11,8 +11,8 @@ npm i axios
 
 React frontend with TypeScript: my-app is folder name, can be changed
 
-npm create vite@latest my-app -- --template react-ts
- cd my-app
+npm create vite@latest . -- --template react-ts
+ cd my-app // no need
   npm install
   npm run dev
 

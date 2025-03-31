@@ -6,7 +6,7 @@ export default function DashboardPage() {
 
   async function onButtonClick() {
     try {
-      const { data } = await axios.get("http://localhost:3000/test", { withCredentials: true });
+      const { data } = await axios.get("http://localhost:5003/test", { withCredentials: true });
       console.log(data);
     } catch (error) {
       if (error instanceof AxiosError) {

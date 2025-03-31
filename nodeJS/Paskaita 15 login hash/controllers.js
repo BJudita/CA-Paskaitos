@@ -39,10 +39,17 @@ export async function loginUser(req, res) {
     const isPasswordCorrect = await bcrypt.compare(password, user.password);
 
     if (isPasswordCorrect) {
-        const token = jwt.sign({ username: user.username }, JWT_SECRET, { expiresIn: "1h" });
-        res.json({ token });
+      const token = jwt.sign({ username }, JWT_SECRET, { expiresIn: "1h" });
+
+      res.cookie("token", token, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "none",
+      });
+
+      res.json({ token });
     } else {
-      res.status(401).json({ message: "Password incorrect" });
+      res.status(401).json({ message: "password incorrect" });
     }
   } catch (error) {
     res.status(500).json({ error: error.message });
