@@ -31,7 +31,7 @@ declare module "*.module.css" {
 eslint:
 'react/prop-types': 'off',
 
-Backend:
+----------- Backend:
 
 npm init -y
 
@@ -59,3 +59,58 @@ put: http://localhost:5002/task/ prekes id
   "estimation": 1
 }
 
+
+typescript back ende:
+ 
+1. npm init -y
+2. npm install --save-dev typescript @types/node ts-node
+3. npx tsc --init (sukurs tsconfig.json fila)
+4. src aplanką sukurti 
+5. jame server.ts
+6. pacage.json įvesti script:
+ "scripts": {
+    "dev": "ts-node src/server.ts",
+      "build": "tsc"
+  },
+7. tconfig.json faile atkomenyuojame:     // "outDir": "./",  
+7.1 nurodome aplanką jame: "outDir": "./build",
+8. papildom package.json:
+ "scripts": {
+    "dev": "ts-node src/server.ts",
+      "build": "tsc",
+      "start": "node build/server.js"
+  },
+
+9. pridedam: npm i express dotenv
+10. ht refresh: npm i -D nodemon
+11. sukurti paskaita 14 nauja aplanka: nodemon.json
+12 įkelk į jį:
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["node_modules"],
+  "exec": "ts-node ./src/server.ts"
+}
+
+13. package.json file atnaujinti:
+ "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node build/server.js"
+  },
+
+
+
+
+heshing:
+ npm i bcryptjs
+npm i jsonwebtoken
+
+
+cookies backende installint:
+npm i cookie-parser
+
+
+instaliuojama į frontend, kad perkelti routus į frontend:
+
+npm i react-router-dom
