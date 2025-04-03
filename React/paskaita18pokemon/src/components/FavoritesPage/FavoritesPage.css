@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.list a {
+    color: #242424;
+}
+.x {
+    padding: 5px 10px;
+}
+
+.fav-container {
+    border-radius: 20px;
+    background-color: #dcdcdc;
+    padding: 20px;
+}
+
+.fav-container h1 { 
+ color: #242424;
+ margin-top: 0;
+}
