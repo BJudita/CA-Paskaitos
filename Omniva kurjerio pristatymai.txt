@@ -1,0 +1,31 @@
+Sukurti pristatymai Omniva kurjerio:
+
+1. Pristatymas iki 1kg (LT):
+   1.1. Zona 1: 5.13 EUR
+   1.2. Zona 2: 5.85 EUR   4.83471
+   1.3. Zona 3: 8.79 EUR   7.26446
+   1.4. Zona 4 (Neringa): 40.79 EUR   33.71074 be pvm
+
+2. Pristatymas nuo 1 iki 3 kg (LT):
+   2.1. Zona 1: 5.85 EUR   4.83471
+   2.2. Zona 2: 6.59 EUR   5.44628
+   2.3. Zona 3: 9.53 EUR   7.87603
+   2.4. Zona 4 (Neringa): 41.53 EUR   34.32231
+
+3. Pristatymas nuo 3 iki 5 kg (LT):
+   3.1. Zona 1: 6.59 EUR   5.44628
+   3.2. Zona 2: 8.79 EUR   7.26446
+   3.3. Zona 3: 10.63 EUR   8.78512 
+   3.4. Zona 4 (Neringa): 42.63 EUR   35.2314
+
+4. Pristatymas nuo 5 iki 10 kg (LT):
+   4.1. Zona 1: 8.79 EUR   7.26446
+   4.2. Zona 2: 9.53 EUR   7.87603
+   4.3. Zona 3: 11.73 EUR  9.69421
+   4.4. Zona 4 (Neringa): 43.73 EUR   36.1405
+
+5. Pristatymas nuo 10 iki 20 kg (LT):
+   5.1. Zona 1-3: 23.5 EUR  19.42149
+   4.2. Zona 4 (Neringa): 65.5 EUR   54.13223
+
+r}{9y5z\vD

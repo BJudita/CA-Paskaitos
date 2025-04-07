@@ -1,0 +1,29 @@
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 8px;
+  }
+  
+  .form-row label {
+    width: 155px;
+    margin-right: 10px;
+    text-align: right;
+  }
+input.checkInput {
+    margin-top: 5px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
+}
+  .form-row input {
+    flex: 1; 
+  }
+ select {
+    float: right;
+    padding: 2px;
+  }
