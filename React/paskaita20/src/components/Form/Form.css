@@ -1,0 +1,49 @@
+.container {
+    background-color: #f2f2f2;
+    padding: 6rem 4rem;
+    color: #242424;;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 9px 0px #d4d4d4;
+    
+}
+
+h1 {
+    color: #242424;
+    font-size: 24px;
+    text-align: center;
+    margin: 1rem 0;
+}
+input.checkInput {
+    width: auto;
+    margin: 0 8px 3px 0;
+    vertical-align: middle;
+}
+
+input {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #d7dbdc;
+    padding: 8px 0 8px 8px;
+    color: #242424;
+    width: 256px;
+    font-size: 14px;
+    margin: 2px 0 10px 0;
+}
+
+input:focus {
+    outline: none;
+    }
+label {
+    text-align: left;
+}
+button {
+    background: #2b73e3;
+    margin-top: 1rem;
+    width: 100;
+    width: 100%;
+}
