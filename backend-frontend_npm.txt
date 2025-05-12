@@ -33,7 +33,7 @@ declare module "*.module.css" {
 eslint:
 'react/prop-types': 'off',
 
------------ Backend:
+----------- BACKEND:
 
 npm init -y
 
@@ -49,7 +49,7 @@ npm i express dotenv pg      -(dbeaver database - pg)  (mongoDb - mongoose)
 
 6. susikuriam env, tada routers, controllers, db
 
-7. kuomet pradedama dirbti ir su frontend, instal: npm i corse in backend
+7. kuomet pradedama dirbti ir su frontend, instal: npm i cors in backend
 
 
 put: http://localhost:5002/task/ prekes id

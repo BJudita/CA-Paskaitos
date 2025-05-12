@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    margin: 1rem 2rem;
+  }
+
+.mainWrapper {
+    margin: auto;
+}
+
+.titleBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.movieBox {
+    text-align: center;
+}
+.movieBox img {
+    max-height: 273px;
+}
+
+.pagination {
+    text-align: center;
+}
+.pagination button {
+    margin: 0 15px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #021c36;
+    color:#021c36;
+}

@@ -1,0 +1,15 @@
+.delete {
+    border-radius: 4px; 
+    color: white;
+    background: #021d38;
+    padding: 5px 15px;
+}
+
+.edit {
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.reviewBtns {
+    text-align: right;
+}

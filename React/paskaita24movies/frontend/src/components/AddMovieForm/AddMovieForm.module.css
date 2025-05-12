@@ -1,0 +1,15 @@
+/* src/components/MovieList/AddMovieForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

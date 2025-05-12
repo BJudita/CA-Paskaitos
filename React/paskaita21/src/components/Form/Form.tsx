@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { InputData, sendFormData } from "../../api";
 import "./Form.css";
+import ResultPreview from "../ResultPreview/ResultsPreview";
 
 const localStorageKey = "userFormData";
 
@@ -302,6 +303,7 @@ export const Form = () => {
           {error && <p className="error">{error}</p>}
         </form>
       </div>
+      <div><ResultPreview data={inputData} /></div>
     </div>
   );
 };

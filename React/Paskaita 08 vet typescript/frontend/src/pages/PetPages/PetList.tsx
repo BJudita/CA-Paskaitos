@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import axios from "axios";
 import AddPetForm from "./PetForm"; // Import AddPetForm here
 
-const API_URL = "http://localhost:3000/pets";
+const API_URL = "http://localhost:3000/movies";
 
 interface Pet {
   id: number;

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4-Day Meal Plan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .day {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f7f9fa;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>4-Day Meal Plan for Strength Training & Fat Loss</h1>
+<div id="mealPlan"></div>
+
+<script>
+const mealPlans = {
+  "Day 1": [
+    ["Breakfast", "Protein oatmeal bowl: 40g oats, 1 scoop protein powder, 1/2 banana, 1 tsp peanut butter"],
+    ["Lunch", "Salmon quinoa bowl: 100g grilled salmon, 1/2 cup quinoa, mixed greens, 1 tbsp olive oil"],
+    ["Snack", "Greek yogurt + berries + 5 almonds"],
+    ["Dinner", "Grilled chicken with sweet potato and broccoli"],
+    ["Snack", "Cottage cheese + dark chocolate chips"]
+  ],
+  "Day 2": [
+    ["Breakfast", "Cottage cheese toast: 2 slices whole grain toast, 100g cottage cheese, 1 boiled egg, tomato"],
+    ["Lunch", "Tuna chickpea salad: 100g tuna, 1/2 cup chickpeas, cucumber, tomato, 1 tbsp olive oil"],
+    ["Snack", "Protein smoothie: 1 scoop protein, 1/2 banana, flaxseed"],
+    ["Dinner", "Chicken with roasted sweet potato and broccoli"],
+    ["Snack", "Greek yogurt + cinnamon + 5 walnuts"]
+  ],
+  "Day 3": [
+    ["Breakfast", "Egg + veggie scramble: 2 eggs + 2 egg whites, whole grain bread, sautéed vegetables"],
+    ["Lunch", "Turkey wrap: whole wheat tortilla, 100g turkey, cheese, lettuce, tomato"],
+    ["Snack", "Protein pudding: 1 scoop protein, cacao, 100g Greek yogurt"],
+    ["Dinner", "Beef stir-fry: 100g lean beef, 1/2 cup rice, mixed vegetables"],
+    ["Snack", "Cottage cheese + berries"]
+  ],
+  "Day 4": [
+    ["Breakfast", "Tofu scramble + toast: 120g tofu, sautéed vegetables, whole grain toast"],
+    ["Lunch", "Lentil + egg bowl: 1/2 cup lentils, 1 boiled egg, salad, tahini dressing, whole grain bread"],
+    ["Snack", "Protein smoothie: 1 scoop plant protein, 1/2 banana, 1 tsp peanut butter"],
+    ["Dinner", "Grilled tempeh + quinoa + roasted vegetables"],
+    ["Snack", "Greek yogurt with cinnamon and sunflower seeds"]
+  ]
+};
+
+const container = document.getElementById("mealPlan");
+
+for (const [day, meals] of Object.entries(mealPlans)) {
+  const dayDiv = document.createElement("div");
+  dayDiv.className = "day";
+  const title = document.createElement("h2");
+  title.textContent = day;
+  dayDiv.appendChild(title);
+
+  const ul = document.createElement("ul");
+  meals.forEach(([meal, description]) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<strong>${meal}:</strong> ${description}`;
+    ul.appendChild(li);
+  });
+
+  dayDiv.appendChild(ul);
+  container.appendChild(dayDiv);
+}
+</script>
+
+</body>
+</html>
